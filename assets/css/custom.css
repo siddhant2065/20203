@@ -1,0 +1,275 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.top-header{
+    width: 100%;
+    background:#e6ecef ;
+    text-align: right;
+    height: 36px;
+    line-height: 36px;}
+.top-header a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+.top-header a:hover {
+    color: #118aef;
+}
+.col-md-6{
+    width: 40%;
+    height: 30px;
+}
+.col-md-2 button {
+    color: white;
+    background: #118aef;
+    border-radius: 5px;
+    width: 70%;
+    border: 1px solid #808890;
+    height: 40px;
+    background: 1px solid white;
+    margin-bottom: 40px;
+}
+.shufuuk{
+    width: 10%;
+    color: #51565e;
+    margin-left:160px;
+}
+.row{
+    width: 100%;
+}
+.mega-menu-section{
+    margin: 0;
+    padding: 0;
+    background: #118aef;
+    list-style-type: none;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.mega-menu-section li{
+    line-height: 45px;
+}
+
+
+.mega-menu{
+    width: 700px;
+    height: 520px;
+    background: gray;
+    position: absolute;
+    margin: 0;
+    padding: 20px;
+    left: -20px;
+    color: black;
+    border: 1px solid #118aef;
+    display: none;
+}
+
+.mega-menu-section:hover .mega-menu{
+    display: block;
+}
+
+
+.left-section{
+    overflow-y: scroll;
+    background: rgb(254, 252, 252);
+    height: 480px;
+    padding: 20px;
+}
+
+
+.left-section::-webkit-scrollbar {
+    width: 7px;    
+  }
+  .left-section::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+  .left-section::-webkit-scrollbar-thumb {
+    background:darkgrey; 
+    border-radius: 10px;
+    height: 400px;
+  }
+.right-section{
+    height: 480px;
+    overflow-y: scroll;
+}
+.right-section::-webkit-scrollbar {
+    width: 7px;    
+  }
+  .right-section::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px
+  }
+  .right-section::-webkit-scrollbar-thumb {
+    background: darkgrey; 
+    border-radius: 10px;
+    height: 400px;
+  }
+.banner{
+    width: 100%;
+    height: 403px;
+    background:url("../images/banner_v1.jpg")no-repeat;
+    background-size: cover;
+    background-size: contain;
+}
+.onecontainer p { 
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+}
+.boxee {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.startbox{
+    width: 13%;
+    height: 40px;
+    background: red;
+}
+.seccontainer{
+    width: 100%;
+    height: 700px;
+    margin-top: 30px;
+    margin-left: 80px;  
+    margin-bottom: 20px;
+}
+.secbox{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.ninebox{
+    width: 33%;
+    height: 40px;
+    background: grey;
+    margin-top: 15px;
+}
+.onelongbox{
+    width: 29%;
+    height:900px ;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.threebox{
+    width: 100%;
+    height: 330px;
+    display: flex;
+
+}
+.abox{
+    width: 28%;
+    height: 310px;
+    margin-top: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-left: 15px;
+    border-radius: 7px;
+}
+.jenuu{
+    width:10%;
+    height: 100px;
+}
+
+.thirdcontainer{
+    width: 100%;
+    height: 300px;
+    background: red;
+    margin-left: 80px;  
+}
+.sidhant{
+    margin-left: 80px;
+    height: 340px;
+    margin-top: 400px;
+    background:#F8FBFF;
+}
+.siddhantbabes{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.whole{
+    width: 23%;
+    height: 200px;
+}
+.alsoacontainer{
+    width: 100%;
+    height: 500px;
+
+}
+.stars{
+    width: 100%;
+    height: 200px;
+    background:blue;
+}
+.stars img {
+    width: 10%;
+    height: 60px;
+}
+.carousel {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-1 {
+    width: 14%;
+    height: 100px;
+    background: url(./image/Caltech_Home.svg) no-repeat;
+
+}
+
+.box-2 {
+    width: 14%;
+    height: 100px;
+    background: url(./image/Miscrosoft_Home.svg) no-repeat;
+
+}
+
+.box-3 {
+    width: 14%;
+    height: 100px;
+    background: url(./image/Purdue_Home.svg) no-repeat;
+
+}
+
+.box-4 {
+    width: 14%;
+    height: 100px;
+    background: url(./image/Wharton_Home.svg) no-repeat;
+}
+
+.box-5 {
+    width: 14%;
+    height: 100px;
+    background: url(./image/IBM_Home.svg) no-repeat;
+}
+
+.box-6 {
+    width: 14%;
+    height: 100px;
+    background: url(./image/Brown_Home.svg) no-repeat;
+}
+
+.box-7 {
+    width: 14%;
+    height: 100px;
+    background: url(./image/AWS_Home.svg) no-repeat;
+}
